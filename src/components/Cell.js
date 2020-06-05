@@ -6,7 +6,6 @@ const Cell = ({ row, col, val, changeBoard, isMouseDown }) => {
   val === 1 && classes.push(styles.Active);
 
   const onMoveHandler = () => {
-    console.log("On Move Executed: isMouseDown:", isMouseDown)
     if (isMouseDown) {
       changeBoard(row, col, 1);
       classes.push(styles.Active);

@@ -2,9 +2,9 @@
 // Any live cell with two or three live neighbours lives on to the next generation.
 // Any live cell with more than three live neighbours dies, as if by overpopulation.
 // Any dead cell with exactly three live neighbours becomes a live cell, as if by reproduction.
-import {generateRandomBoard} from "./index"
+import { generateRandomBoard } from "./index";
 
-export const runAnimation = (board, setBoard, maxNum) => {
+export const runAnimation = (board, setBoard, maxNum, setIsAnimating) => {
   let gameHasEnded = false;
   let secondboard = generateRandomBoard(board.length, board[0].length);
   let count = 0;
@@ -28,8 +28,11 @@ export const runAnimation = (board, setBoard, maxNum) => {
     secondboard = temp;
     //check if game has ended
     gameHasEnded = checkEmptyBoard(board);
-    setBoard(board)
-    if (count >= maxNum || gameHasEnded) clearInterval(intervalId);
+    setBoard(board);
+    if (count >= maxNum || gameHasEnded) {
+      setIsAnimating(false);
+      clearInterval(intervalId);
+    }
   }, 250);
 };
 
@@ -79,4 +82,3 @@ const countNeighbors = (row, col, board) => {
 
   return count;
 };
-
