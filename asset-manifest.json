@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.6eb8b2d6.chunk.css",
-    "main.js": "/static/js/main.cca7c0bf.chunk.js",
-    "main.js.map": "/static/js/main.cca7c0bf.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.45c90165.js",
-    "runtime-main.js.map": "/static/js/runtime-main.45c90165.js.map",
-    "static/js/2.575133b5.chunk.js": "/static/js/2.575133b5.chunk.js",
-    "static/js/2.575133b5.chunk.js.map": "/static/js/2.575133b5.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.0dcb930a01dae505c8c1a73fcea62917.js": "/precache-manifest.0dcb930a01dae505c8c1a73fcea62917.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.6eb8b2d6.chunk.css.map": "/static/css/main.6eb8b2d6.chunk.css.map",
-    "static/js/2.575133b5.chunk.js.LICENSE.txt": "/static/js/2.575133b5.chunk.js.LICENSE.txt"
+    "main.css": "/GameOfLife/static/css/main.6eb8b2d6.chunk.css",
+    "main.js": "/GameOfLife/static/js/main.cca7c0bf.chunk.js",
+    "main.js.map": "/GameOfLife/static/js/main.cca7c0bf.chunk.js.map",
+    "runtime-main.js": "/GameOfLife/static/js/runtime-main.7c00ba42.js",
+    "runtime-main.js.map": "/GameOfLife/static/js/runtime-main.7c00ba42.js.map",
+    "static/js/2.575133b5.chunk.js": "/GameOfLife/static/js/2.575133b5.chunk.js",
+    "static/js/2.575133b5.chunk.js.map": "/GameOfLife/static/js/2.575133b5.chunk.js.map",
+    "index.html": "/GameOfLife/index.html",
+    "precache-manifest.ba29b8fcd56b8e661e00da60ae48dcbc.js": "/GameOfLife/precache-manifest.ba29b8fcd56b8e661e00da60ae48dcbc.js",
+    "service-worker.js": "/GameOfLife/service-worker.js",
+    "static/css/main.6eb8b2d6.chunk.css.map": "/GameOfLife/static/css/main.6eb8b2d6.chunk.css.map",
+    "static/js/2.575133b5.chunk.js.LICENSE.txt": "/GameOfLife/static/js/2.575133b5.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.45c90165.js",
+    "static/js/runtime-main.7c00ba42.js",
     "static/js/2.575133b5.chunk.js",
     "static/css/main.6eb8b2d6.chunk.css",
     "static/js/main.cca7c0bf.chunk.js"
