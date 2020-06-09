@@ -39,6 +39,7 @@ const Board = () => {
           col={colNum}
           val={board[rowNum][colNum]}
           changeBoard={changeBoard}
+          isAnimating={isAnimating}
         />
       );
     });

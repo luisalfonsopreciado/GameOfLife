@@ -1,12 +1,12 @@
 import React from "react";
 import styles from "./Cell.module.css";
 
-const Cell = ({ row, col, val, changeBoard, isMouseDown }) => {
+const Cell = ({ row, col, val, changeBoard, isMouseDown, isAnimating }) => {
   const classes = [styles.Cell];
   val === 1 && classes.push(styles.Active);
 
   const onMoveHandler = () => {
-    if (isMouseDown) {
+    if (isMouseDown && !isAnimating) {
       changeBoard(row, col, 1);
       classes.push(styles.Active);
     }
